@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
    <header className="bg-black text-white text-sm">
   {/* Main Navbar */}
-  <div className="flex justify-between items-center px-6 py-4">
+  <div className="flex justify-between items-center px-8 py-5">
     {/* Logo */}
     <div className="text-2xl font-bold tracking-wide">ZENNY</div>
 
