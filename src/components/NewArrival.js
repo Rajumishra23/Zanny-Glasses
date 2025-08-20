@@ -4,7 +4,7 @@ const products = [
   {
     title: "Vintage Gold Wristwatch",
     brand: "",
-    image: "New1.png",
+    image: "new1.png",
     price: "₹16,445.00",
     oldPrice: "₹18,272.00",
     discount: "-10%",
@@ -12,7 +12,7 @@ const products = [
   {
     title: "Heritage Automatic Watch",
     brand: "",
-    image: "new2.png",
+    image: "New2.png",
     price: "₹7,482.00",
     oldPrice: null,
     discount: null,

@@ -7,22 +7,23 @@ import {
 
 const Navbar = () => {
   return (
-    <header className="bg-black text-white text-sm">
-      {/* Main Navbar */}
-      <div className="flex justify-between items-center px-3 py-2">
-        {/* Logo */}
-        <div className="text-2xl font-bold tracking-wide">ZENNY</div>
+   <header className="bg-black text-white text-sm">
+  {/* Main Navbar */}
+  <div className="flex justify-between items-center px-6 py-4">
+    {/* Logo */}
+    <div className="text-2xl font-bold tracking-wide">ZENNY</div>
 
-        {/* Nav Links */}
-        <nav className="hidden md:flex gap-6 text-sm font-medium">
-          <a href="#" className="hover:text-primary transition">HOME</a>
-          <a href="#" className="hover:text-primary transition">SHOP</a>
-          <a href="#" className="hover:text-primary transition">COLLECTION</a>
-          <a href="#" className="hover:text-primary transition">BLOG</a>
-          <a href="#" className="hover:text-primary transition">PAGES</a>
-          <a href="#" className="hover:text-primary transition">ELEMENTORS</a>
-          <a href="#" className="hover:text-primary transition">SALE</a>
-        </nav>
+    {/* Nav Links */}
+    <nav className="hidden md:flex space-x-8 text-sm font-medium">
+      <a href="#" className="hover:text-primary transition duration-200">HOME</a>
+      <a href="#" className="hover:text-primary transition duration-200">SHOP</a>
+      <a href="#" className="hover:text-primary transition duration-200">COLLECTION</a>
+      <a href="#" className="hover:text-primary transition duration-200">BLOG</a>
+      <a href="#" className="hover:text-primary transition duration-200">PAGES</a>
+      <a href="#" className="hover:text-primary transition duration-200">ELEMENTORS</a>
+      <a href="#" className="hover:text-primary transition duration-200">SALE</a>
+    </nav>
+
 
         {/* Icons */}
         <div className="flex items-center gap-6">
